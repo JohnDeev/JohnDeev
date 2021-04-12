@@ -1,0 +1,55 @@
+html body {
+    background-image: url(../assets/img/bg-desktop.svg);
+    background-size: 100% 100%;
+    padding: 20px 40px;
+    height: auto;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+header .header-logo--img {
+    width: 80%;
+    
+}
+
+header .header-logo--img {
+    width: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 0; 
+    padding: 0;
+}
+.main-imagen-container .main-imagen--mockups {
+    width: 100%;
+    margin: 0px;
+ 
+ }
+
+
+.main-text-container {
+    padding-top: 50px;
+    margin: 0px;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.main-text__parrafo {
+    width: 100%;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+
+}

@@ -1,0 +1,165 @@
+/*  
+Agregando estilos:
+
+1. Posicionamiento --> static, absolute, relative, fixed
+
+2. Modelo de caja (Box model) --> margin, border, padding, content width heith
+
+3. Tipografía --> tipos, tamaños de fuente, etc
+
+3. Estilos visuales --> box-shadow, border-radius, gradient, etc
+
+Otros --> reglas CSS y más
+Colores:
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+:root {
+    --primary-violet: hsl(257, 40%, 49%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--primary-violet);
+    background-image: url(../assets/img/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    width: 100%;
+    padding: 30px; 
+}
+
+header .header-logo--container{
+    width: 80%;
+}
+
+header .header-logo--img {
+    width: 138px;
+    min-width: 142px;
+    max-width: 164px;
+}
+
+main{
+    width: 100%;
+    padding-top: 15px;
+    margin: 18px 0;
+}
+
+.main-imagen-container{
+    width: 100%;
+    min-width: 375px;
+    max-width: 700px;
+    height: auto;
+    text-align: center;
+
+}
+
+.main-imagen-container .main-imagen--mockups {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    max-height: 428px;
+    margin: 0 auto;
+    
+}
+
+.main-text-container {
+    width: 100%;
+    min-width: 298px;
+    max-width: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+}
+
+h1 {
+    font-family:'Poppins', sans-serif;
+    width: 80%;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: #fff;
+}
+
+.main-text__parrafo {
+    width: 80%;
+    max-width: 512px;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 500;
+    color: #ffff;
+    padding: 15px 0;
+}
+
+.main-text__buttom {
+    width: 43%;
+    max-width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px  rgb(43, 43, 41);
+    color: var(--primary-violet);
+    font-size: 1.6rem;
+    border: 0;
+}
+
+footer{
+    width: 100%;
+    height: 78px;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.icon-container {
+    width: 40%;
+    min-width: 150px;
+    max-width: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer .fab {
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+   
+    
+}
+
+
+
+
+
+
+
+
