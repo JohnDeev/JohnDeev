@@ -68,7 +68,7 @@ main{
 
 .main-imagen-container{
     width: 100%;
-    min-width: 375px;
+    min-width: 320px;
     max-width: 700px;
     height: auto;
     text-align: center;
